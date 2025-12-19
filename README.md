@@ -1,85 +1,125 @@
-# 📘 Sistema de Gerenciamento de Matérias
-**Disciplina: Engenharia de Software**
+📚 Sistema de Gerenciamento de Matérias
 
----
+Disciplina: Engenharia de Software
+Autor: André Crator
+Repositório: controle-estudos-engenharia-software
 
-## 📌 Sobre o Projeto
+🧠 Sobre o Projeto
 
-Este projeto foi desenvolvido como parte da disciplina **Engenharia de Software**, com o objetivo de aplicar, na prática, os conceitos fundamentais de **engenharia de requisitos, modelagem UML e documentação de sistemas**.
+Este projeto foi desenvolvido como parte da disciplina Engenharia de Software, com o objetivo de aplicar, na prática, os conceitos fundamentais de:
 
-O sistema proposto permite o gerenciamento de matérias acadêmicas, incluindo autenticação do usuário, cadastro de matérias e acompanhamento do progresso de estudos.
+Engenharia de Requisitos
 
----
+Modelagem UML
 
-## 🎯 Objetivo
+Casos de Uso
 
-O principal objetivo deste projeto é consolidar o aprendizado dos seguintes conceitos:
+Diagramas de Sequência
 
-- Levantamento e especificação de requisitos
-- Casos de Uso
-- Diagramas de Sequência
-- Diagrama de Classes
-- Organização e documentação de projetos de software
+Diagrama de Classes
 
----
+Documentação de Software
 
-## ⚙️ Funcionalidades do Sistema
+O sistema tem como finalidade auxiliar no gerenciamento de matérias acadêmicas e no acompanhamento do progresso de estudos, simulando um sistema real de controle acadêmico.
 
-O sistema contempla os seguintes casos de uso:
+🎯 Objetivo
 
-- **UC01 – Realizar Login**  
-  Permite que o usuário se autentique no sistema informando suas credenciais.
+Criar uma base sólida de documentação e modelagem de um sistema acadêmico, seguindo boas práticas de Engenharia de Software, antes da implementação do código.
 
-- **UC02 – Cadastrar Matéria**  
-  Permite o cadastro de novas matérias no sistema.
+👤 Atores do Sistema
 
-- **UC03 – Atualizar Progresso**  
-  Permite o registro e atualização do progresso de uma matéria cadastrada.
+Usuário
+Responsável por realizar login, cadastrar matérias e atualizar o progresso de estudos.
 
----
+🧩 Funcionalidades Modeladas (Casos de Uso)
+✅ UC01 – Realizar Login
 
-## 📐 Diagramas UML
+Permite que o usuário se autentique no sistema através de credenciais válidas.
 
-Foram desenvolvidos os seguintes diagramas UML:
+✅ UC02 – Cadastrar Matéria
 
-- Diagramas de Sequência:
-  - UC01 – Realizar Login
-  - UC02 – Cadastrar Matéria
-  - UC03 – Atualizar Progresso
+Permite que o usuário cadastre novas matérias informando seus dados básicos.
 
-- Diagrama de Classes:
-  - Representa a estrutura do sistema, incluindo camadas de interface, controle, repositório e entidades.
+✅ UC03 – Atualizar Progresso
 
-Todos os diagramas estão disponíveis na pasta **Diagramas** do projeto.
+Permite que o usuário atualize o progresso de uma matéria, informando:
 
----
+Percentual de conclusão
 
-## 📂 Estrutura de Pastas
+Status
 
-A organização do projeto segue a estrutura abaixo:
+Observações
 
-Sistema_Gerenciamento_de_Materias/
-├── README.md
+📐 Modelagem UML
+
+O projeto conta com os seguintes diagramas UML:
+
+📊 Diagramas de Sequência:
+
+UC01 – Realizar Login
+
+UC02 – Cadastrar Matéria
+
+UC03 – Atualizar Progresso
+
+🧱 Diagrama de Classes:
+
+Telas (Login, Matéria, Progresso)
+
+Controllers
+
+Repositories
+
+Entidades principais
+
+Os diagramas estão disponíveis na pasta:
+
+/Diagramas
+
+🗂️ Estrutura do Repositório
+controle-estudos-engenharia-software/
+│
 ├── Diagramas/
-│ ├── UC01_Sequencia
-│ ├── UC02_Sequencia
-│ ├── UC03_Sequencia
-│ └── Diagrama_Classes
+│   ├── Diagramas de Sequência
+│   └── Diagrama de Classes
+│
 ├── Documentacao/
-│ ├── UC01_Realizar_Login.docx
-│ ├── UC02_Cadastrar_Materia.docx
-│ └── UC03_Atualizar_Progresso.docx
-└── Geral/
+│   ├── UC01_Realizar_Login.docx
+│   ├── UC02_Cadastrar_Materia.docx
+│   └── UC03_Atualizar_Progresso.docx
+│
+├── README.md
+└── .gitignore
 
-yaml
-Copiar código
+🚀 Versões (Releases)
 
----
+v1.0.0 – Estrutura Inicial do Sistema
 
-## 📚 Considerações Finais
+Modelagem UML completa
 
-Este projeto representa uma aplicação prática dos conceitos estudados em Engenharia de Software, demonstrando a importância da modelagem e da documentação no desenvolvimento de sistemas.
+Casos de Uso UC01, UC02 e UC03
 
-O foco principal está na clareza, organização e coerência entre requisitos, diagramas e documentação, seguindo boas práticas acadêmicas e profissionais.
+Estrutura inicial de documentação
 
----
+🛠️ Tecnologias Utilizadas
+
+UML (Unified Modeling Language)
+
+diagrams.net (Draw.io)
+
+Git & GitHub
+
+Markdown
+
+📌 Status do Projeto
+
+📘 Projeto em fase de modelagem e documentação
+➡️ Próximos passos:
+
+Refinamento da modelagem
+
+Possível implementação futura do sistema
+
+✍️ Observações Finais
+
+Este repositório tem caráter acadêmico e demonstra o processo de aprendizado em Engenharia de Software, priorizando clareza, organização e boas práticas de documentação.
