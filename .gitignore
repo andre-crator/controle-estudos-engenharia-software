@@ -1,0 +1,19 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Temporários
+*.tmp
+*.temp
+
+# Node/Python (se usar depois)
+node_modules/
+__pycache__/
+*.pyc
+.env
