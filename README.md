@@ -1,3 +1,6 @@
+## 🌐 Portfólio
+Site profissional: https://andre-crator.github.io
+
 # 📚 Sistema de Gerenciamento de Matérias e Progresso de Estudos
 
 Projeto acadêmico desenvolvido para a disciplina de **Engenharia de Software**, com foco na aplicação prática de **engenharia de requisitos, modelagem UML, casos de uso e versionamento**.
