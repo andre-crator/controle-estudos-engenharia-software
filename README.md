@@ -123,5 +123,4 @@ Projeto desenvolvido como parte da disciplina **Engenharia de Software**, com fi
 ## 👤 Autor
 
 **André Crator**  
-Estudante de Análise e Desenvolvimento de Sistemas  
-Interesse em Engenharia de Software, modelagem UML e arquitetura de sistemas
+Estudante de  Engenharia de Software, modelagem UML e arquitetura de sistemas
